@@ -25,4 +25,4 @@ while True:             # Infinite loop when user press no then only this loop w
         break
     elif option.lower()=='see':
         e.display()
-print('Multiple Employee objects serilized')
+print('\nMultiple Employee objects serilized')
