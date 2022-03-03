@@ -16,7 +16,7 @@ from random import randint
 
 start = 1
 
-end = 100
+end = 1000
 
 value = randint(start, end)
 
