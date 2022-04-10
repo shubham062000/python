@@ -28,7 +28,8 @@ def trackbitcoin():
    
     labelprice.config(text= str(price) + " $")
     labeltime.config(text= 'Updated at :' + time)
-
+   
+    # here trackbitcoin function will be run automatically every 1 second for getting current bitcoin price
     canvas.after(1000, trackbitcoin)
 
 trackbitcoin()
